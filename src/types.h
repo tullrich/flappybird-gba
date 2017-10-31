@@ -1,0 +1,21 @@
+#ifndef _TYPES_H
+#define _TYPES_H
+
+#include <stdint.h>
+
+// Arm7
+// sizeof(short) : 2
+// sizeof(int) : 4
+// sizeof(long) : 4
+// sizeof(long long) : 8
+// sizeof(float) : 4
+// sizeof(double) : 8
+
+typedef	uint8_t u8;
+typedef	uint16_t u16;
+typedef	uint32_t u32;
+typedef	int8_t s8;
+typedef	int16_t s16;
+typedef	int32_t	s32;
+
+#endif // _TYPES_H
